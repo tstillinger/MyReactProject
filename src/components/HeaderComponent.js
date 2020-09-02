@@ -22,41 +22,35 @@ class Header extends Component {
     render() {
         return (
             <React.Fragment>
-                <Jumbotron fluid>
+                <Jumbotron backgroundimage fluid>
                     <div className="container">
-                        <div className="row">
+                        <div className="row" >
                             <div className="col">
-                                <h1>NuCamp</h1>
-                                <h2>a better way to camp</h2>
+                                <h1>Special T Enterprises</h1>
+                                <h2>Enhance Your Home With The Beauty Of Stone</h2>
                             </div>
                         </div>
                     </div>
                 </Jumbotron>
-
                 <Navbar dark sticky="top" expand="md">
                     <div className="container">
-                        <NavbarBrand className="mr-auto" href="/"><img src="/assets/images/logo.png" height="30" width="30" alt="NuCamp Logo" /></NavbarBrand>
+                        <NavbarBrand className href="/"><img src="/assets/images/logo3.jpg" height="60" width ="60" alt="Special T Logo" /></NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
-                            <Nav navbar>
+                            <Nav navbar className="ml-auto">
                                 <NavItem>
                                     <NavLink className="nav-link" to="/home">
-                                        <i className="fa fa-home fa-lg" /> Home
+                                        <i  /> Home
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/directory">
-                                        <i className="fa fa-list fa-lg" /> Directory
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" to="/aboutus">
-                                        <i className="fa fa-info fa-lg" /> About
+                                        <i /> Gallery
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/Contactus">
-                                        <i className="fa fa-address-card fa-lg" /> Contact Us
+                                        <i /> Contact Us
                                     </NavLink>
                                 </NavItem>
                             </Nav>

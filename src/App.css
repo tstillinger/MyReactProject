@@ -1,22 +1,25 @@
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: rgb(204, 202, 202);
 }
 
-h1, h2, h3, .card-body>.card-title {
-  font-family: "Lobster", cursive;
+h1, h3, .card-body>.card-title {
+  font-family: "chalkduster";
 }
 
 .card-title {
   font-weight: 500;
   font-size: 1.25rem;
+  color: white;
 }
 
 h2 {
   color: #3046C5;
+  font-family: "lobster"
 }
 
 .card-img-overlay .card-title {
-  color: white;
+  color: white; 
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -27,21 +30,47 @@ h2 {
 }
 
 .site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
-  padding: 20px 0;
-}
+  background-image: url("./test/assets/images/black\ cultured\ stone.jpg");
+  padding: 40px;
+  color: white;
+  }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+  background-image: url("./test/assets/images/black\ cultured\ stone.jpg");
   color: white;
 }
 
 .jumbotron h2 {
-  color: #CEC8FF;
+  color: rgb(255, 187, 0);
 }
 
 .navbar-dark {
-  background-color: #901CAD;
+  background-color: rgb(39, 36, 36);
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 0rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;   
+}
+
+.cardtext {
+  text-align: center;
+  background-color: gray;
+}
+
+.card-body {
+  background-color: rgb(39, 36, 36);
+  color: orange;
+  font-family: "lobster";
+  font-size: xx-large;
+}
+a {
+  color: white;
+}
+
+p {
+  text-align: center;
 }
