@@ -67,7 +67,7 @@ class Contact extends Component {
 
                 <div className="row row-content">
                     <div className="col-12">
-                        <h3>Send us your Feedback</h3>
+                        <h3>How can we reach you?</h3>
                         <hr />
                     </div>
                     <div className="col-md-10">
@@ -130,18 +130,18 @@ class Contact extends Component {
                                 </Col>
                             </FormGroup>
                             <FormGroup row>
-                                <Label htmlFor="feedback" md={2}>Your Feedback</Label>
+                                <Label htmlFor="comments" md={2}>Comments</Label>
                                 <Col md={10}>
-                                    <Input type="textarea" id="feedback" name="feedback"
+                                    <Input type="textarea" id="comments" name="comments"
                                         rows="12"
-                                        value={this.state.feedback}
+                                        value={this.state.comments}
                                         onChange={this.handleInputChange}></Input>
                                 </Col>
                             </FormGroup>
                             <FormGroup row>
                                 <Col md={{ size: 10, offset: 2 }}>
                                     <Button type="submit" color="primary">
-                                        Send Feedback
+                                        Submit
                             </Button>
                                 </Col>
                             </FormGroup>
