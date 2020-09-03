@@ -17,7 +17,7 @@ function Home() {
         <div className="container">
             <div className="row align-items-center my-5">
                 <div className="col-lg-7">
-                    <img className="img-fluid rounded mb-4 mb-lg-0" src="/assets/images/IMAG0774.jpg" />
+                    <img className="img-fluid rounded mb-4 mb-lg-0" src="/assets/images/IMAG0774.jpg" alt= "logo" />
                 </div>
                 <div className="col-lg-5">
                     <h1 className="Font-font-weight-white">Special T Enterprises</h1>

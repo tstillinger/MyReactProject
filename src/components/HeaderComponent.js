@@ -34,7 +34,7 @@ class Header extends Component {
                 </Jumbotron>
                 <Navbar dark sticky="top" expand="md">
                     <div className="container">
-                        <NavbarBrand className href="/"><img src="/assets/images/logo3.jpg" height="60" width ="60" alt="Special T Logo" /></NavbarBrand>
+                        <NavbarBrand className href="/"><img src="/assets/images/logo6.jpg" height="60" width ="60" alt="Special T Logo" /></NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar className="ml-auto">

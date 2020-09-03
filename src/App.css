@@ -5,6 +5,7 @@ body {
 
 h1, h3, .card-body>.card-title {
   font-family: "chalkduster";
+  padding-top: 1rem;
 }
 
 .card-title {
@@ -57,8 +58,12 @@ h2 {
 }
 
 .cardtext {
-  text-align: center;
+  text-align: left;
   background-color: gray;
+}
+
+.card {
+  text-align: center;
 }
 
 .card-body {
@@ -74,6 +79,3 @@ a {
   color: white;
 }
 
-p {
-  text-align: center;
-}

@@ -60,8 +60,8 @@ class Contact extends Component {
                     </address>
                     </div>
                     <div className="col">
-                        <a role="button" className="btn btn-link" href="tel:+12065551234"><i className="fa fa-phone"></i> 1-206-555-1234</a><br />
-                        <a role="button" className="btn btn-link" href="mailto:theresa.stillinger@gmail.com"><i className="fa fa-envelope-o"></i> theresa.stillinger@.gmail.com</a>
+                        <a role="button" className="btn btn-link" href="tel:+12065551234"><i className="fa fa-phone"></i> 1-509-555-1234</a><br />
+                        <a role="button" className="btn btn-link" href="mailto:theresa.stillinger@gmail.com"><i className="fa fa-envelope-o"></i> sales@specialtenterprises.com</a>
                     </div>
                 </div>
 
