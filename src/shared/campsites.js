@@ -9,7 +9,7 @@ export const CAMPSITES = [
     },
     {
         id: 1,
-        name:"Front Portch Cultured Stone Posts",
+        name:"Front Porch Posts",
         image: "/assets/images/5.jpg",
         elevation: 877,
         featured: false,
@@ -17,7 +17,7 @@ export const CAMPSITES = [
     },
     {
         id: 2,
-        name:"Lightpost and Planter Box",
+        name:"Lightpost and Plante",
         image: "/assets/images/3.jpg",
         elevation: 2901,
         featured: false,
@@ -25,7 +25,7 @@ export const CAMPSITES = [
     },
     {
         id: 3,
-        name:"Cozy River Stone Fireplace",
+        name:"River Stone Fireplace",
         image: "/assets/images/4.jpg",
         elevation: 42,
         featured: true,

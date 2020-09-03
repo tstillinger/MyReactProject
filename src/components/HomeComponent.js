@@ -22,7 +22,7 @@ function Home() {
                 <div className="col-lg-5">
                     <h1 className="Font-font-weight-white">Special T Enterprises</h1>
                     <p>
-                        Locally Owned and operated in the Spokane WA area.  Family run business specializing in small to medium masonry projects and repairs.
+                        Locally Owned and operated in the Spokane, Washington area.  Family run business specializing in small to medium masonry projects and repairs.
                     </p>
                 </div>
             </div>
